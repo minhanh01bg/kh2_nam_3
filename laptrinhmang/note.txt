@@ -1,0 +1,7 @@
+một giao tiếp mạng (NIC) là điểm liên kết giữa máy tính với mạng
+Giao tiếp mạng:
+	+Giao tiếp mạng vật lý 
+	+Giao tiếp mạng phần mềm
+Lớp NetWorkInterface  hỗ trợ cho cả 2 loại giao tiếp trên 
+	+Hữu ích trong các hệ thống có nhiều NIC
+	

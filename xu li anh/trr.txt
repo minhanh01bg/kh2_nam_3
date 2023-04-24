@@ -1,0 +1,12 @@
+f(x,y) là ảnh đầu vào
+g(x,y) là ảnh đầu ra
+T là một số toán tử tác động vào các điểm xung quanh (x,y)
+g(x,y) = T(f(x,y))   						{f(x,y) =[0,1]}
+=> syntax: s = T(r) = intensity(max) - r   	{intensity(max) = 1)
+
+s: mức xám của ảnh đầu ra tại điểm (x,y)
+r: mức xám của ảnh đầu vào 
+
+p(rk)=nk/n 
+nk là số lượng pixel có giá trị xám rk
+n là tổng số pixel

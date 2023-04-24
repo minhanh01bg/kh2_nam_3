@@ -1,0 +1,23 @@
+{
+  "content_scripts": [
+    {
+      "js": [
+        "drnguyentt.js"
+      ],
+      "matches": [
+        "http://drnguyentt.com/*"
+      ]
+    }
+  ],
+  "manifest_version": 3,
+  "name": "VPL IDE Uploader",
+  "version": "1.0.0",
+  "description": "Upload file to VPL IDE",
+  "author": "tungsfer512",
+  "icons": {
+    "16": "assets/icon_16x16.png",
+    "32": "assets/icon_32x32.png",
+    "48": "assets/icon_48x48.png",
+    "128": "assets/icon_128x128.png"
+  }
+}
