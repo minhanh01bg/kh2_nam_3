@@ -1,0 +1,10 @@
+Trong khoảng số có n chữ số (ví dụ n = 5:10000 -> 99999) và có 1 số k. 
+Hãy tính xem trong khoảng đó có bao nhiêu số chia hết cho 7 
+và có số cuối hàng đơn vị là k ? 0 <= k < 10.
+
+n = 5: X = abcdk = 10*abcd + k = 7*abcd + 3*abcd + k
+Đặt 3*abcd + k = 7h
+=> abcd = (7h-k)/3 = 2h + (h-k)/3
+abcd là số nguyên => h = 3t + k => abcd = 7t + 2*k
+=> 1000 <= 7t + 2*k <= 9999
+vs  k = 1 => t thuộc [143,1428] => có 1286 số 

@@ -1,0 +1,19 @@
+cho hai số tự nhiên n và m, nhiệm vụ của bạn là kiểm tra xem phần nguyên i = n / m (n > m) 
+có là ước chung lớn nhất của hai số A = n * m và B = n + m hay không. 
+nếu đúng thì in ra bội chung nhỏ nhất của A và B còn không thì in ra NO.
+ 
+INPUT:
+    dòng đầu nhập vào số bộ test T (T < 100)
+    dòng thứ 2 là hai số n và m (n, m < 200000) 
+OUTPUT:
+	nếu đúng thì in ra bội chung nhỏ nhất của A và B còn không thì in ra NO.
+	kết quả mỗi test trên 1 dòng.
+
+
+INPUT:
+2
+546 465
+899 546
+OUTPUT:
+NO
+709284030
